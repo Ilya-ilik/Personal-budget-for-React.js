@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+/* My code  */
+.result {
+  width: 200px;
+  background-color: aqua;
+  border: 1px solid black;
+}
+
+.button {
+  width: 50px; /* задаете свои размеры */
+  height: 50px;
+  border-radius: 50%;
+  /* background-color: #61dafb; */
+  background-image: url(img/plus.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50px;
+}
