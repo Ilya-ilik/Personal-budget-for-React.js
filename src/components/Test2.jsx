@@ -2,6 +2,7 @@ import "./Test2.css";
 import React, { useState } from "react";
 
 function Test2() {
+  
   //state, income  categories
   const [category1, setCategory1] = useState(0);
   const [category2, setCategory2] = useState(0);

@@ -6,7 +6,7 @@ import Test1 from "./Test1";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App"> 
       {/* <Test1 /> */}
       <Test2 />
     </div>
