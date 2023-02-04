@@ -1,0 +1,52 @@
+.glavniy_block {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* расстояние между блоками внутри этого блока */
+  /* width: 500px; */
+  margin-bottom: 20px;
+}
+
+.test_block_text1 {
+  background-color: #475f6b;
+  width: 500px;
+  border: 1px solid black;
+
+}
+
+.test_block_text2 {
+  background-color: #475f6b;
+  width: 500px;
+  border: 1px solid black;
+}
+
+.graffik {
+  /* width: 300px; */
+  height: 300px;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.block_categoriya_dohodov_1 {
+  display: flex;
+  width: 200px;
+  /* border: 1px solid black; */
+  margin: 10px auto;
+  /* text-align: center; */
+}
+
+.zvetnoy_kvadrat {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 20%;
+}
+
+.categoriya {
+  width: 100px;
+  margin: 0 10px 0 10px;
+  /* border: 1px solid black; */
+}
+
+.chislo_deneg {
+  /* border: 1px solid black; */
+}

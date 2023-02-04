@@ -8,7 +8,7 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  .App-logo {  
     animation: App-logo-spin infinite 20s linear;
   }
 }
@@ -37,26 +37,15 @@
   }
 }
 
-/* My code  */
-.result {
-  width: 200px;
-  background-color: aqua;
-  border: 1px solid black;
-}
 
-.button {
-  width: 50px; /* задаете свои размеры */
-  height: 50px;
-  border-radius: 50%;
-  /* background-color: #61dafb; */
-  background-image: url(img/plus.jpeg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        border-radius: 50px;
-}
+/* мой код ниже */
 
 .App {
   height: 1000px;
   background-color: #32535a;
+  color: white;
+}
+
+.route {
   color: white;
 }
