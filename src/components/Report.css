@@ -3,7 +3,7 @@
   justify-content: center;
   gap: 10px; /* расстояние между блоками внутри этого блока */
   /* width: 500px; */
-  margin-bottom: 20px;
+  margin-bottom: 20px; 
 }
 
 .test_block_text1 {
@@ -16,6 +16,12 @@
 .test_block_text2 {
   background-color: #475f6b;
   width: 500px;
+  border: 1px solid black;
+}
+
+
+/* График */
+#canvas {
   border: 1px solid black;
 }
 

@@ -1,12 +1,16 @@
-import "./Expenses.css";
+import "./Report.css";
 import React from "react";
-import Screenshot_1 from './Screenshot_1.png';
+import { useRef } from "react";
+// import Screenshot_1 from './Screenshot_1.png'; 
 
-function Expenses(props) {
+function Report(props) {
   console.log(props.dayOfTheMonth[0]); //Тест пропсов в консоль (можно удалить)
   console.log(props.month[0]);         //Тест пропсов в консоль (можно удалить)
   console.log(props.year[0]);          //Тест пропсов в консоль (можно удалить)
   // console.log(props.array4[0]);     //Тест пропсов в консоль (можно удалить)
+
+
+
   return (
     <div className=""> 
       <p>Расходы</p>
@@ -31,7 +35,15 @@ function Expenses(props) {
         
       </div>
       
-      <div className="graffik"><img src={Screenshot_1}/></div>                {/*Надо смменить имя класса на нормальное*/}
+      {/* <div className="graffik"><img src={Screenshot_1}/></div>          Надо смменить имя класса на нормальное, если получиться написать график на js то удаляю эту строку */}
+      
+      
+      
+      
+      
+      
+      
+      
       <div className="block_categoriya_dohodov_1">                      {/*Надо смменить имя класса на нормальное*/}
         <div className="zvetnoy_kvadrat"></div>                         {/*Надо смменить имя класса на нормальное*/}
         <div className="categoriya">{props.categoryNames[0]}</div>      {/*Надо смменить имя класса на нормальное*/}
@@ -54,4 +66,4 @@ function Expenses(props) {
   );
 }
 
-export default Expenses;
+export default Report;

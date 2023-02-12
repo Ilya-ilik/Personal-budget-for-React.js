@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 // import state from './redux/state'; пример из my-app
 import data from './components/data'; 
-import Main_page from './components/Main_page'; 
+import Budget from './components/Budget'; 
 
 
 
@@ -13,7 +13,7 @@ import Main_page from './components/Main_page';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App data={data} Main_page={Main_page}/>
+    <App data={data} Budget={Budget}/>
   </React.StrictMode>
 );
 

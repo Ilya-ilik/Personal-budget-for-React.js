@@ -22,7 +22,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} 
 
 .App-link {
   color: #61dafb;
@@ -41,9 +41,13 @@
 /* мой код ниже */
 
 .App {
-  height: 1000px;
+
+  width: 1024px;
+  height: 1200px;
   background-color: #32535a;
   color: white;
+  margin: 0 auto;
+ 
 }
 
 .route {

@@ -1,8 +1,7 @@
-// import logo from './logo.svg';
-// import Chart from "./components/Chart";
 import "./App.css";
-import Expenses from "./components/Expenses";
-import Main_page from "./components/Main_page";
+import Budget from "./components/Budget";
+import Report from "./components/Report";
+import Goals from "./components/Goals";
 import { BrowserRouter, Route, Routes } from "react-router-dom"; // добвляем для работы роутов
 import { Link } from "react-router-dom"; // добвляем для работы роутов компонента которая направляет
 
@@ -10,20 +9,18 @@ function App(props) {
   return (
     <BrowserRouter>
       <div className="App">
-
-        <Link to="/main_page" className="route">/Бюджет (Main_page)/</Link> {/*наш линк для роута, компонента приложения "бюджет"*/}
-        <Link to="/expenses" className="route">/Отчет (Expenses)/</Link>    {/*наш линк для роута, компонента приложения "отчет" */}
-
-        {/*<Chart/> не рабочий компонент react-chartjs-2*/}
-        {/* <Main_page /> компонента приложения "бюджет" */}
-
+        
+        <Link to="/goals" className="route">/Цели (Goals)</Link>
+        <Link to="/budget" className="route">/Бюджет (Budget)/</Link>
+        <Link to="/report" className="route">/Отчет (Report)/</Link>
+        
         <Routes>
-          <Route path="/main_page" element={<Main_page />} />
-          {/*строка ниже компонента приложения "отчет" */}
+          <Route path="/goals" element={<Goals/>} />
+          <Route path="/budget" element={<Budget/>} />
           <Route
-            path="/expenses"
+            path="/report"
             element={
-              <Expenses
+              <Report
                 dayOfTheMonth={props.data.dayOfTheMonth}
                 month={props.data.month}
                 year={props.data.year}
@@ -32,7 +29,6 @@ function App(props) {
             }
           />
         </Routes>
-
       </div>
     </BrowserRouter>
   );

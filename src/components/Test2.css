@@ -1,24 +1,35 @@
 hr {
-  margin-bottom: 15px;
+  /* margin: 0 550px 15px 550px; */
 }
 
+/* Верная последовательность */
 .intro {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.graffik {
+/* Верная последовательность */
+.graffikk {
   display: flex;
   justify-content: center;
 }
 
+/* Верная последовательность */
 .column {
   width: 50px;
   height: 100px;
   background-color: #475f6b;
-  /* border: 1px solid black; */
+  border: 1px solid black;
   margin-right: 10px;
+}
+
+/* Верная последовательность */
+.income {
+  display: flex;
+  justify-content: center;
+  gap: 500px;
+  margin-top: 15px;
 }
 
 .expenditure_categories {
@@ -37,19 +48,41 @@ hr {
   margin-bottom: 100px;
 }
 
-.block_one {
+/* Верная последовательность */
+.income_categories {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Верная последовательность */
+.first_rows {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  gap: 20px;
+}
+
+/* Верная последовательность */
+.block_item {
+  display: flex;
+  flex-direction: column;
+  width: 95px;
+  height: 128px;
+
   /* margin-right: 50px; */
   /* align-items: center; */
   /* justify-content: center; */
   /* margin-right: 100px; */
 }
 
+/* Верная последовательность */
 .first_category {
-  border: 3px solid yellow;
-  width: 100px;
-  height: 100px;
+  border: 2px solid yellow;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   background-image: url(travel_airplane_1740.png);
   background-size: cover;
@@ -60,35 +93,49 @@ hr {
   background-size: cover; */
 }
 
+/* Верная последовательность */
 .second_category {
-  border: 3px solid yellow;
-  width: 100px;
-  height: 100px;
+  border: 2px solid yellow;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   background-image: url(travel_car_BMV_1741.png);
   background-size: cover;
   /* margin-right: 100px; */
 }
+
+/* Верная последовательность */
 .third_category {
-  border: 3px solid yellow;
-  width: 100px;
-  height: 100px;
+  border: 2px solid yellow;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   background-image: url(device_laptop_screen_chart_graph_monitor_notebook_pc_icon_231922.png);
   background-size: cover;
 }
 
-.income_categories {
+/* Верная последовательность */
+.second_rows {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 10px;
+  gap: 20px;
+}
+
+/* Верная последовательность */
+.third_rows {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  gap: 20px;
 }
 
 .first_category2 {
   border: 3px solid aqua;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   background-image: url(travel_airplane_1740.png);
   background-size: cover;
@@ -101,8 +148,8 @@ hr {
 
 .second_category2 {
   border: 3px solid aqua;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   background-image: url(travel_car_BMV_1741.png);
   background-size: cover;
@@ -111,8 +158,8 @@ hr {
 
 .third_category2 {
   border: 3px solid aqua;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   background-image: url(device_laptop_screen_chart_graph_monitor_notebook_pc_icon_231922.png);
   background-size: cover;
